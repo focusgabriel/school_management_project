@@ -8,6 +8,9 @@ import {
   pgEnum,
 } from 'drizzle-orm/pg-core';
 import { relations } from 'drizzle-orm';
+import { auditLogs } from './audit-log.model';
+import { teachers } from './teacher.model';
+import { students } from './student.model';
 
 export const userRoleEnum = pgEnum('user_role', [
   'admin',
