@@ -5,6 +5,7 @@ import {
   text,
   timestamp,
   boolean,
+  pgEnum,
   integer,
 } from 'drizzle-orm/pg-core';
 import { relations } from 'drizzle-orm';
