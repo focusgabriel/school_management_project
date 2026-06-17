@@ -10,5 +10,5 @@ export * from './exam.model';
 export * from './fee.model';
 export * from './timetable.model';
 export * from './announcement.model';
-export * from './grade.model';
+// export * from './grade.model';
 export * from './audit-log.model';
