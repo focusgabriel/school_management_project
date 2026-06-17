@@ -6,6 +6,7 @@ import {
   timestamp,
   integer,
   boolean,
+  pgEnum,
 } from 'drizzle-orm/pg-core';
 import { relations } from 'drizzle-orm';
 import { teachers } from './teacher.model';
